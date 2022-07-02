@@ -1,13 +1,9 @@
 package main
 
-import (
-	"fmt"
-)
+import "fmt"
 
 func main() {
-	g := []string{"Me", "You", "Them"}
+	age := 23
 
-	for i, b := range g {
-		fmt.Println(i, b)
-	}
+	fmt.Printf("I am %d years old", age)
 }
